@@ -6,8 +6,7 @@ for i in range(5):
 s = set(lista1)
 
 for i in range(5):
-    k = int(input("Digite os valores do 2 conjunto: "))
-    lista2.append(k)
+    lista2.append(int(input("Digite os valores do 2 conjunto: ")))
 r = set(lista2)
 
 print(s.union(r))
